@@ -1,6 +1,6 @@
 require './graph.rb'
 
-class DFSPath
+class DFSPaths
   def  initialize(g, s)
     @marked = Array.new(g.num_verts, false)
     @edge_to = Array.new(g.num_verts)
